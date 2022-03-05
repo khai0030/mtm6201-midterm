@@ -48,7 +48,14 @@ table {
 }
 /* css reset ends here */
 
-footer{
+/* header css */
+.header{
+    width: 1920px;
+    height: 185px;
+    background-color: black;
+}
+/* footer css */
+.footer{
     background-color: black;
     width: 1919px;
     height: 817px;
@@ -57,5 +64,54 @@ footer{
 footer ul li a{
     color: white;
     text-decoration: none;
+    font-size: 20pts;
+}
+footer h4{
+    color: white;
+    font-weight: bold;
+    font-size: 25pts;
+}
+footer td{
+    padding: 30px;
 }
 
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* styles each logo's colour, for this design they're all the same */
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+  .fa-twitter {
+    background: black;
+    color: white;
+  }
+  .fa-facebook {
+    background: black;
+    color: white;
+  }
+  .fa-youtube {
+    background: black;
+    color: white;
+  }
+  .fa-pinterest {
+    background: black;
+    color: white;
+  }
+  .fa-tiktok {
+    background: black;
+    color: white;
+ 
