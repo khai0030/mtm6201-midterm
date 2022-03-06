@@ -46,43 +46,119 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* css reset ends here */
+/* ------------CSS RESET ENDS HERE------------ */
+ /*ADDING CUSTOM FONTS TO THE WEBSITE*/
+@font-face{
+  font-family: ARCADE;
+  src: url("../fonts/ARCADE.TTF");
+}
+@font-face{
+  font-family: Gamer;
+  src: url("../fonts/Gamer.ttf");
+}
+@font-face{
+    font-family: Oswald;
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family: RetroGaming;
+  src: url("../fonts/Retro-Gaming.ttf");
+}
+/* Fixing layout on website */
 
-/* header css */
-.header{
-    width: 1920px;
-    height: 185px;
-    background-color: black;
+body{
+  margin: 0;
+  box-sizing: border-box;
 }
-/* footer css */
-.footer{
-    background-color: black;
-    width: 1919px;
-    height: 817px;
+html, body{
+  height: 100%;
 }
 
-footer ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20pts;
+/* ---header css--- */
+.header{ /*customizes black container in whole header*/
+  height: 185px;
+  background-color: black;
 }
-footer h4{
-    color: white;
+ h1{
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  font-family: ARCADE;
+  position:center;
+ }
+
+/* customizes search bar in header */
+ .search{
+    padding-left: 17px;
+    padding-bottom: 17px;
+ }
+ #search{
+    width: 424px;
+    height: 30px;
+    border-radius: 5px;
+    color: #888484;
     font-weight: bold;
-    font-size: 25pts;
+    font-size: 15px;
+ }
+
+/* customizing nav bar */
+nav{ /*customizes white container in nav bar*/
+  background-color: white;
+  height: 52px;
 }
-footer td{
-    padding: 30px;
+
+nav ul{ /* flexes the items to position them properly */
+  display: flex;
+  justify-content: center;
+  
+  
 }
+
+nav ul li{
+  display: inline;
+  padding: 15px;  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  font-family: Gamer;
+}
+
+/* ---footer--- css */
+.footer{
+  background-color: black;
+  height: 623px;
+}
+
+footer h4{
+  color: white;
+  font-size: 20px;
+  font-family: RetroGaming;
+  padding: 20px;
+}
+
+footer li{
+  padding:10px;
+}
+footer ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Oswald;
+  padding: 20px;
+}
+
+
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  padding:15px;
+  font-size: 40px;
+  width: 10px;
+  text-decoration: none;
+  border-radius: 50%;
   }
   
   /* Add a hover effect if you want */
@@ -114,4 +190,6 @@ footer td{
   .fa-tiktok {
     background: black;
     color: white;
+  }
+
  
