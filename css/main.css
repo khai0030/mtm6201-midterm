@@ -64,8 +64,8 @@ table {
     font-family: RetroGaming;
   src: url("../fonts/Retro-Gaming.ttf");
 }
-/* Fixing layout on website */
 
+/* Fixing layout on website */
 body{
   margin: 0;
   box-sizing: border-box;
@@ -84,7 +84,11 @@ html, body{
   font-size: 70px;
   text-align: center;
   font-family: ARCADE;
-  position:center;
+ transform: translateY(60%);
+ }
+
+ .h1a{
+text-decoration: none;
  }
 
 /* customizes search bar in header */
@@ -101,6 +105,16 @@ html, body{
     font-size: 15px;
  }
 
+.icons img{
+  width: 57px;
+  height: 57px;
+
+}
+.icons{
+  float: right;
+  display: block;
+  transform: translateY(-110%)
+}
 /* customizing nav bar */
 nav{ /*customizes white container in nav bar*/
   background-color: white;
@@ -110,8 +124,7 @@ nav{ /*customizes white container in nav bar*/
 nav ul{ /* flexes the items to position them properly */
   display: flex;
   justify-content: center;
-  
-  
+  transform: translateY(-10%);
 }
 
 nav ul li{
@@ -142,6 +155,7 @@ footer h4{
 footer li{
   padding:10px;
 }
+
 footer ul li a{
   color: white;
   text-decoration: none;
@@ -150,6 +164,15 @@ footer ul li a{
   padding: 20px;
 }
 
+.siteinfo{
+  transform: translateX(10%)
+}
+.aboutht{
+  transform: translateX(-4%)
+}
+.customerservice{
+  transform: translateX(-3%)
+}
 
 
 /* Style all font awesome icons */
@@ -159,6 +182,7 @@ footer ul li a{
   width: 10px;
   text-decoration: none;
   border-radius: 50%;
+  transform: translateX(90%) /*moves items on X axis*/
   }
   
   /* Add a hover effect if you want */
@@ -184,10 +208,6 @@ footer ul li a{
     color: white;
   }
   .fa-pinterest {
-    background: black;
-    color: white;
-  }
-  .fa-tiktok {
     background: black;
     color: white;
   }
