@@ -140,18 +140,18 @@ nav ul li a{
 }
 
 /* ---footer--- css */
-.footer{
+.footer{ /*colours countainer and gives it a height*/
   background-color: black;
   height: 623px;
 }
 
-footer h4{
+footer h4{ /*customizes h4 in footer*/
   color: white;
   font-size: 20px;
   font-family: RetroGaming;
   padding: 20px;
 }
-
+/* customizes ul in footer */
 footer li{
   padding:10px;
 }
@@ -164,8 +164,9 @@ footer ul li a{
   padding: 20px;
 }
 
+/* moves items in footer on X axis */
 .siteinfo{
-  transform: translateX(10%)
+  transform: translateX(-20%)
 }
 .aboutht{
   transform: translateX(-4%)
