@@ -97,7 +97,7 @@ text-decoration: none;
     padding-bottom: 17px;
  }
  #search{
-    width: 424px;
+    width: 350px;
     height: 30px;
     border-radius: 5px;
     color: #888484;
@@ -124,7 +124,7 @@ nav{ /*customizes white container in nav bar*/
 nav ul{ /* flexes the items to position them properly */
   display: flex;
   justify-content: center;
-  transform: translateY(-10%);
+  transform: translateX(10%) translateY(-10%);
 }
 
 nav ul li{
@@ -138,6 +138,64 @@ nav ul li a{
   font-size: 35px;
   font-family: Gamer;
 }
+
+/*---------- CSS FOR HTML 1 (INDEX/HOMEPAGE) ONLY---------- */
+
+.greenfunko{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+}
+.funkobanner{
+transform:translateX(-5%);
+}
+.green{
+  transform:translateX(15%);
+}
+
+.buttons button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: RetroGaming;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.shopnow1{
+  transform: translateX(72%) translateY(-50%);
+}
+.shopnow2{
+  transform: translateX(340%) translateY(-50%);
+}
+
+.fandoms{
+  padding-left: 100px;
+}
+.fandoms img{
+  width: 178px;
+  padding:20px;
+}
+
+.sanriohoodies{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+}
+
+.shopnow3{
+  transform: translateX(130%) translateY(-160%);
+}
+.shopnow4{
+  transform: translateX(370%) translateY(-160%);
+}
+
+/* ---------- END OF CSS FOR HTML 1 ONLY ---------- */
 
 /* ---footer--- css */
 .footer{ /*colours countainer and gives it a height*/
@@ -166,7 +224,7 @@ footer ul li a{
 
 /* moves items in footer on X axis */
 .siteinfo{
-  transform: translateX(-20%)
+transform: translateX(5%);
 }
 .aboutht{
   transform: translateX(-4%)
