@@ -197,6 +197,91 @@ transform:translateX(-5%);
 
 /* ---------- END OF CSS FOR HTML 1 ONLY ---------- */
 
+/*---------- CSS FOR HTML 2 (POPCULTURE) ONLY---------- */
+
+.navpc{ 
+  background-color: white;
+  height: 52px;
+  transform: translateY(-30%);
+}
+
+
+h2{
+ font-family: Arcade;
+ font-size: 40px;
+ text-align: center;
+ padding-top: 30px;
+}
+
+.popculturepics, .popculturepics2{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 20px;
+}
+.popculturepics img{
+  width: 220px;  
+} 
+.popculturepics2 img{
+  width: 220px;  
+}
+
+.itemnamepc, .itemnamepc2 {
+  font-family: Oswald;
+  font-size: 20px; 
+   display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  transform: translateX(5%);
+}
+
+.name3, .name9{
+  transform: translateX(-3%);
+}
+.name4, .name10{
+  transform: translateX(-5%);
+}
+.name5, .name11{
+  transform: translateX(-8%);
+}
+.name6, .name12{
+  transform: translateX(-10%);
+}
+
+.pricepc, .pricepc2{
+  font-family: Gamer;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  transform: translateX(5%);
+ 
+}
+.pricepc{
+  padding-bottom: 40px;
+}
+.pricepc2{
+  padding-bottom: 70px;
+}
+
+.price1, .price7{
+  transform: translateX(6%);
+}
+.price2, .price8{
+  transform: translateX(7%);
+}
+.price3, .price9{
+  transform: translateX(4%);
+}
+.price4, .price10{
+  transform: translateX(2%);
+}
+.price6, .price12{
+  transform: translateX(-3%);
+}
+
+
+
+/*---------- END OF CSS FOR HTML 2 (POPCULTURE) ONLY---------- */
+
+
 /* ---footer--- css */
 .footer{ /*colours countainer and gives it a height*/
   background-color: black;
