@@ -351,6 +351,88 @@ h3{
   transform: translateY(-3200%);
 }
 
+.checkoutnow button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: RetroGaming;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 300px;
+  height: 61px;
+}
+
+.checkoutnow{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  column-gap: 20px;
+  padding-left: 20px;
+  transform: translateY(-900%);
+}
+
+.checkoutnow .total{
+  font-family: RetroGaming;
+  font-size: 16px;
+  color: #8B0F0F; 
+  transform: translateX(-5%) translateY(30%);
+}
+
+.checkoutnow .totalprice{
+  font-family: Gamer;
+  font-size: 25px;
+  transform: translateX(-85%) translateY(21%);
+}
+ 
+.continueshopping p{
+font-family: RetroGaming;
+font-size: 16px;
+transform: translateY(-3350%);
+padding-left: 22px;
+}
+
+.footercart{ /*fixes container to fit cart html*/
+  background-color: black;
+  height: 623px;
+  transform: translateY(-70%)
+
+}
+
+
+footer h4{ /*customizes h4 in footer*/
+  color: white;
+  font-size: 20px;
+  font-family: RetroGaming;
+  padding: 20px;
+}
+/* customizes ul in footer */
+footer li{
+  padding:10px;
+}
+
+footer ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Oswald;
+  padding: 20px;
+}
+
+/* moves items in footer on X axis */
+.siteinfo{
+transform: translateX(5%);
+}
+.aboutht{
+  transform: translateX(-4%)
+}
+.customerservice{
+  transform: translateX(-3%)
+}
+
+ 
+
 
   
 
