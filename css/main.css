@@ -61,7 +61,7 @@ table {
   src: url("../fonts/Oswald-VariableFont_wght.ttf");
 }
 @font-face{
-    font-family: RetroGaming;
+    font-family: RetroGaming; /*gives them a name of my choice*/
   src: url("../fonts/Retro-Gaming.ttf");
 }
 
@@ -84,11 +84,11 @@ html, body{
   font-size: 70px;
   text-align: center;
   font-family: ARCADE;
- transform: translateY(60%);
+ transform: translateY(60%); /*gives item a certain position/placement on the screen*/
  }
-
+/* customizes H1 as a link */
  .h1a{
-text-decoration: none;
+  text-decoration: none;
  }
 
 /* customizes search bar in header */
@@ -105,34 +105,31 @@ text-decoration: none;
     font-size: 15px;
  }
 
+ /* customizes icons (made by me through Illustrator) above nav bar */
 .icons img{
   width: 57px;
   height: 57px;
-
 }
 .icons{
   float: right;
   display: block;
-  transform: translateY(-110%)
+  transform: translateY(-110%) /*gives item a certain position/placement on the screen*/
 }
 /* customizing nav bar */
 nav{ /*customizes white container in nav bar*/
   background-color: white;
   height: 52px;
 }
-
 nav ul{ /* flexes the items to position them properly */
   display: flex;
   justify-content: center;
-  transform: translateX(10%) translateY(-10%);
+  transform: translateX(10%) translateY(-10%); 
 }
-
 nav ul li{
-  display: inline;
+  display: inline; /*makes the ul display the li in one horizontal line*/
   padding: 15px;  
 }
-
-nav ul li a{
+nav ul li a{ /*customizes li as links*/
   text-decoration: none;
   color: black;
   font-size: 35px;
@@ -140,8 +137,7 @@ nav ul li a{
 }
 
 /*---------- CSS FOR HTML 1 (INDEX/HOMEPAGE) ONLY ---------- */
-
-.greenfunko{
+.greenfunko{ /*makes the pictures display in a grid, and modifies grid*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 20px;
@@ -152,7 +148,7 @@ transform:translateX(-5%);
 .green{
   transform:translateX(15%);
 }
-
+/* modifies buttons to match buttons on mock-up */
 .buttons button{
   background-color: black;
   border: none;
@@ -165,13 +161,15 @@ transform:translateX(-5%);
   border-radius: 5px;
 }
 
-.shopnow1{
+/*gives item a certain position/placement on the screen*/
+.shopnow1{ 
   transform: translateX(72%) translateY(-50%);
 }
 .shopnow2{
   transform: translateX(340%) translateY(-50%);
 }
 
+/*customizes fandom images in center of homepage*/
 .fandoms{
   padding-left: 100px;
 }
@@ -180,7 +178,7 @@ transform:translateX(-5%);
   padding:20px;
 }
 
-.sanriohoodies{
+.sanriohoodies{ /*makes the pictures display in a grid, and modifies grid and its position*/
   display:grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 30px;
@@ -188,44 +186,44 @@ transform:translateX(-5%);
   padding-left: 20px;
 }
 
-.shopnow3{
+/*gives item a certain position/placement on the screen*/
+.shopnow3{ 
   transform: translateX(130%) translateY(-160%);
 }
 .shopnow4{
   transform: translateX(370%) translateY(-160%);
 }
-
 /* ---------- END OF CSS FOR HTML 1 ONLY ---------- */
 
 /*---------- CSS FOR HTML 2 (POPCULTURE) ONLY ---------- */
-
-h2{
+h2{/* customizes H2 and aligns it */
  font-family: Arcade;
  font-size: 40px;
  text-align: center;
  padding-top: 30px;
 }
-
+/*makes the pictures display in a grid, and modifies grid*/
 .popculturepics, .popculturepics2{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   padding: 20px;
 }
+/*modifies images in Pop Culture page*/
 .popculturepics img{
   width: 220px;  
 } 
 .popculturepics2 img{
   width: 220px;  
 }
-
+ /* modifies sold items' names, displays them in a grid and customizes it and its placement. */
 .itemnamepc, .itemnamepc2 {
   font-family: Oswald;
   font-size: 20px; 
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(6, 1fr);
   transform: translateX(5%);
 }
-
+/* modifies placement/position of each 2 items in the grid */
 .name3, .name9{
   transform: translateX(-3%);
 }
@@ -239,6 +237,7 @@ h2{
   transform: translateX(-10%);
 }
 
+/* modifies sold items' prices, displays them in a grid and customizes it and its placement. */
 .pricepc, .pricepc2{
   font-family: Gamer;
   font-size: 30px;
@@ -254,6 +253,7 @@ h2{
   padding-bottom: 70px;
 }
 
+/* modifies placement/position of each 2 items in the grid */
 .price1, .price7{
   transform: translateX(6%);
 }
@@ -269,47 +269,45 @@ h2{
 .price6, .price12{
   transform: translateX(-3%);
 }
-
 /*---------- END OF CSS FOR HTML 2 (POPCULTURE) ONLY ---------- */
 
 /*---------- CSS FOR HTML 3 (CART) ONLY ---------- */
-
-h2{
+h2{/* customizes H2 and aligns it */
   font-family: Arcade;
   font-size: 40px;
   text-align: center;
   padding-top: 30px;
  }
 
-.itemcart img{
+.itemcart img{/*modifies images in Cart page*/
   width: 178px; 
   padding-bottom: 20px;
   padding-left: 20px;
 } 
-.itemcart{
+.itemcart{ /*displays items in a grid and customizes it*/
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.item1, .item2, .item3, .item4{
+.item1, .item2, .item3, .item4{ /*customizes specific items and gives them specific placement on page*/
   font-family: Oswald;
   font-size: 20px;
   transform: translateX(-55%) translateY(10%)
 }
 
-.price1, .price2, .price3, .price4{
+.price1, .price2, .price3, .price4{ /*customizes specific items and gives them specific placement on page*/
   font-family: Gamer;
   font-size: 30px; 
   transform: translateX(-155%) translateY(20%)
 }
 
-h3{
+h3{ /*customizes h3 and aligns it and places it specifically*/
   font-family: Gamer;
   font-size: 35px;
  text-align: right;
  transform: translateX(-12.5%) translateY(40%);
 }
-
+/*displays items into 2 differnt grids and places them sepcifically on pages*/
 .mightlikepics, .mightlikepics2{
   display: grid;
   grid-template-columns: repeat(3, 178px);
@@ -318,15 +316,15 @@ h3{
   padding-right: 20px;
   transform: translateY(-410%);
 }
-
+/* modifies images */
 .mightlikepics img{
   width: 178px; 
 }
 .mightlikepics2 img{
   width: 178px; 
-  transform: translateY(20%);
+  transform: translateY(20%); /*gives item a certain position/placement on the screen*/
   }
-
+/*displays items into 2 differnt grids and places them sepcifically on pages*/
 .mightlikenames, .mightlikenames2{
   font-family: Oswald;
   font-size: 20px;
@@ -336,9 +334,9 @@ h3{
   transform: translateY(-4800%);
 }
 .mightlikenames2{
-  transform: translateY(-4500%);
+  transform: translateY(-4500%);/*gives item a certain position/placement on the screen*/
 }
-
+/*displays items into 2 differnt grids and places them sepcifically on pages*/
 .mightlikeprice, .mightlikeprice2{
   font-family: Gamer;
   font-size: 30px; 
@@ -348,10 +346,11 @@ h3{
   transform: translateY(-3000%);
 }
 .mightlikeprice{
-  transform: translateY(-3200%);
+  transform: translateY(-3200%);/*gives item a certain position/placement on the screen*/
 }
 
-.checkoutnow button{
+/* modifies buttons to make them look like mock-up */
+.checkoutnow button{ 
   background-color: black;
   border: none;
   color: white;
@@ -364,43 +363,39 @@ h3{
   width: 300px;
   height: 61px;
 }
-
-.checkoutnow{
+/* displays items in grid, modifies it and places it specifically on page */
+.checkoutnow{ 
   display: grid;
   grid-template-columns: repeat(3, 300px);
   column-gap: 20px;
   padding-left: 20px;
   transform: translateY(-900%);
 }
-
-.checkoutnow .total{
+.checkoutnow .total{ /*customizes "total:" in check out and places it specifically on page*/
   font-family: RetroGaming;
   font-size: 16px;
   color: #8B0F0F; 
   transform: translateX(-5%) translateY(30%);
 }
-
-.checkoutnow .totalprice{
+.checkoutnow .totalprice{ /*customizes price in check out and places it specifically on page*/
   font-family: Gamer;
   font-size: 25px;
   transform: translateX(-85%) translateY(21%);
 }
- 
-.continueshopping p{
+.continueshopping p{ /*customizes sentence in check out and places it specifically on page*/
 font-family: RetroGaming;
 font-size: 16px;
 transform: translateY(-3350%);
 padding-left: 22px;
 }
 
+/* customizes footer on cart page*/
 .footercart{ /*fixes container to fit cart html*/
   background-color: black;
   height: 623px;
   transform: translateY(-70%)
 
 }
-
-
 footer h4{ /*customizes h4 in footer*/
   color: white;
   font-size: 20px;
@@ -430,16 +425,51 @@ transform: translateX(5%);
 .customerservice{
   transform: translateX(-3%)
 }
-
- 
-
-
-  
-
-
-
 /*---------- END OF CSS FOR HTML 3 (CART) ONLY ---------- */
 
+/* animation */
+
+nav li:hover{ /* makes nav bar items jump when hovered over */
+  transform: translate(0%, -10%);
+  transition: 0.5s
+}
+.shoppingbag:hover{ /* makes shopping bag spin when hovered over */
+  transform: rotate(360deg);
+  transition: 3s;
+}
+
+.shopnow1:hover, .shopnow2:hover, .shopnow3:hover, .shopnow4:hover{/* makes buttons pulse when hovered over */
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+}
+@keyframes pulse {
+  0%{
+    background:black
+  }
+ 100% {
+    opacity:0.7;
+  }
+}
+.horror:hover, .bts:hover, .sanrio:hover, .anime:hover, .disney:hover, .ghibli:hover{ /* makes fandom images shake when hovered over */
+  animation-name: shake; 
+  animation-duration: 10s;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
 
 /* ---footer--- css */
 .footer{ /*colours countainer and gives it a height*/
